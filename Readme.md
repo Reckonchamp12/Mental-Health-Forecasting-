@@ -55,8 +55,8 @@ mental_health_forecasting/
      └─ Graphs
           ├─ rmse_comparison.png
           ├─ mae_comparison.png
-          ├─ all_models_compared.png
-          └─ encoding_1.png evaluation_ranking.py # Ranks all models based on combined score
+          ├─ all models compared.png
+          └─ encoding 1.png evaluation_ranking.py # Ranks all models based on combined score
 ```
 
 ---
