@@ -4,6 +4,15 @@
 This project predicts depression scores using **machine learning (ML)** and **deep learning (DL)** models.  
 The dataset includes features related to mental health, demographics, socioeconomic factors, and anxiety scores.
 
+## Visual Results
+
+### RMSE Comparison
+![RMSE Comparison](Results/graphs/rmse_comparison.png)
+
+### MAE Comparison
+![MAE Comparison](Results/graphs/mae_comparison.png)
+
+
 ### Dataset
 The dataset includes columns such as:
 - Education, Province, Age
@@ -58,13 +67,6 @@ mental_health_forecasting/
           ├─ all models compared.png
           └─ encoding 1.png evaluation_ranking.py # Ranks all models based on combined score
 ```
-## Visual Results
-
-### RMSE Comparison
-![RMSE Comparison](Results/graphs/rmse_comparison.png)
-
-### MAE Comparison
-![MAE Comparison](Results/graphs/mae_comparison.png)
 
 ---
 
