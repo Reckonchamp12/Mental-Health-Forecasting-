@@ -39,7 +39,7 @@ The target variable is `DEPRESSION` score.
 ---
 
 ## Project Structure
-`
+```
 mental_health_forecasting/
 │
 ├─ README.md # Project description and instructions
@@ -50,7 +50,7 @@ mental_health_forecasting/
 ├─ fused_models.py # Trains & evaluates fused DL models
 ├─ evaluation_ranking.py # Ranks all models based on combined score
 └─ visualize_results.py # Visualizes RMSE, MAE, and R² comparisons
-`
+```
 
 ---
 
