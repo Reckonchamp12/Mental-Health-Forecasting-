@@ -1,0 +1,16 @@
+# Data handling
+numpy>=1.23.0
+pandas>=1.5.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Deep Learning
+tensorflow>=2.15.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# HuggingFace datasets
+datasets>=2.15.0
