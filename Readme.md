@@ -49,7 +49,13 @@ mental_health_forecasting/
 ├─ dl_models.py # Trains & evaluates DL models
 ├─ fused_models.py # Trains & evaluates fused DL models
 ├─ evaluation_ranking.py # Ranks all models based on combined score
-└─ visualize_results.py # Visualizes RMSE, MAE, and R² comparisons
+├─ 
+└─ Results
+     └─ Graphs
+          └─ rmse_comparison.png
+          └─ mae_comparison.png
+          └─ all_models_compared.png
+          └─ encoding_1.png
 ```
 
 ---
@@ -69,6 +75,19 @@ mental_health_forecasting/
   - Lasso (ML model)
 
 These models capture both linear and nonlinear relationships in the dataset effectively.
+## Visual Results
+
+### RMSE Comparison
+![RMSE Comparison](results/graphs/rmse_comparison.png)
+
+### MAE Comparison
+![MAE Comparison](results/graphs/mae_comparison.png)
+
+### All Models Compared
+![All Models](results/graphs/all_models_compared.png)
+
+### Example Encoding
+![Encoding](results/graphs/encoding_1.png)
 
 ## Google Colab Usage
 You can run this project in Colab:
@@ -79,6 +98,7 @@ You can run this project in Colab:
 ```python
 !pip install pandas numpy scikit-learn tensorflow seaborn matplotlib datasets
 ```
+
 Load dataset from the web:
 ds = load_dataset("fridriik/mental-health-arg-post-quarantine-covid19-dataset")
 
