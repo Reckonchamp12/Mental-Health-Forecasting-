@@ -84,11 +84,6 @@ These models capture both linear and nonlinear relationships in the dataset effe
 ### MAE Comparison
 ![MAE Comparison](Results/graphs/mae_comparison.png)
 
-### All Models Compared
-![All Models](Results/graphs/all_models_compared.png)
-
-### Example Encoding
-![Encoding](Results/graphs/encoding_1.png)
 
 ## Google Colab Usage
 You can run this project in Colab:
