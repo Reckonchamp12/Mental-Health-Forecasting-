@@ -40,6 +40,7 @@ The target variable is `DEPRESSION` score.
 
 ## Project Structure
 ```
+
 mental_health_forecasting/
 │
 ├─ README.md # Project description and instructions
@@ -49,13 +50,13 @@ mental_health_forecasting/
 ├─ dl_models.py # Trains & evaluates DL models
 ├─ fused_models.py # Trains & evaluates fused DL models
 ├─ evaluation_ranking.py # Ranks all models based on combined score
-├─ 
+├─ mental_health_forcasting.ipynb
 └─ Results
      └─ Graphs
-          └─ rmse_comparison.png
-          └─ mae_comparison.png
-          └─ all_models_compared.png
-          └─ encoding_1.png
+          ├─ rmse_comparison.png
+          ├─ mae_comparison.png
+          ├─ all_models_compared.png
+          └─ encoding_1.png evaluation_ranking.py # Ranks all models based on combined score
 ```
 
 ---
@@ -78,16 +79,16 @@ These models capture both linear and nonlinear relationships in the dataset effe
 ## Visual Results
 
 ### RMSE Comparison
-![RMSE Comparison](results/graphs/rmse_comparison.png)
+![RMSE Comparison](Results/graphs/rmse_comparison.png)
 
 ### MAE Comparison
-![MAE Comparison](results/graphs/mae_comparison.png)
+![MAE Comparison](Results/graphs/mae_comparison.png)
 
 ### All Models Compared
-![All Models](results/graphs/all_models_compared.png)
+![All Models](Results/graphs/all_models_compared.png)
 
 ### Example Encoding
-![Encoding](results/graphs/encoding_1.png)
+![Encoding](Results/graphs/encoding_1.png)
 
 ## Google Colab Usage
 You can run this project in Colab:
