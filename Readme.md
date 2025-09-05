@@ -58,6 +58,13 @@ mental_health_forecasting/
           ├─ all models compared.png
           └─ encoding 1.png evaluation_ranking.py # Ranks all models based on combined score
 ```
+## Visual Results
+
+### RMSE Comparison
+![RMSE Comparison](Results/graphs/rmse_comparison.png)
+
+### MAE Comparison
+![MAE Comparison](Results/graphs/mae_comparison.png)
 
 ---
 
@@ -76,13 +83,6 @@ mental_health_forecasting/
   - Lasso (ML model)
 
 These models capture both linear and nonlinear relationships in the dataset effectively.
-## Visual Results
-
-### RMSE Comparison
-![RMSE Comparison](Results/graphs/rmse_comparison.png)
-
-### MAE Comparison
-![MAE Comparison](Results/graphs/mae_comparison.png)
 
 
 ## Google Colab Usage
